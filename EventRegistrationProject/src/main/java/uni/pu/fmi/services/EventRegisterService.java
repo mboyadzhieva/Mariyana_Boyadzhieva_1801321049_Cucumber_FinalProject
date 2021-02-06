@@ -29,13 +29,13 @@ public class EventRegisterService {
 
         String emailValidationMsg = emailValidation(firstName, lastName, email);
 
-        if(!emailValidationMsg.equals("OK")){
+        if (!emailValidationMsg.equals("OK")){
             return emailValidationMsg;
         }
 
         String eventValidationMsg = eventValidation(eventTopic, eventDate);
 
-        if(!eventValidationMsg.equals("OK")){
+        if (!eventValidationMsg.equals("OK")){
             return eventValidationMsg;
         }
 
@@ -54,13 +54,11 @@ public class EventRegisterService {
             return "Вече сте регистрирани за това събитие!";
         }
 
-        if (selectedEvent.payments == null){
-            Set<Payment> payments = new HashSet<Payment>();
-            User user = new User(firstName, lastName, email);
-            payments.add(new Payment(user, creditCardNum));
-            selectedEvent.payments = payments;
-            selectedEvent.setCapacity(selectedEvent.getCapacity() - 1);
-        }
+        Set<Payment> payments = new HashSet<Payment>();
+        User user = new User(firstName, lastName, email);
+        payments.add(new Payment(user, creditCardNum));
+        selectedEvent.payments = payments;
+        selectedEvent.setCapacity(selectedEvent.getCapacity() - 1);
 
         return "Успешно се регистрирахте и заплатихте за избраното събитие!";
     }
@@ -159,8 +157,8 @@ public class EventRegisterService {
 
         int dayInMilliseconds = 86400000;
 
-        if(eventDate.getTime() - new Date(System.currentTimeMillis()).getTime() < dayInMilliseconds){
-            return "Събитието е след по-малко от 24 часа. Срокът за записване е изтекъл!";
+        if (eventDate.getTime() - new Date(System.currentTimeMillis()).getTime() < dayInMilliseconds){
+            return "Срокът за записване е изтекъл!";
         }
 
         return "OK";
@@ -170,7 +168,7 @@ public class EventRegisterService {
         boolean isEmailTaken = getUsers().stream().anyMatch(user -> user.getEmail().equals(email)
                 && !user.getName().equals(firstName + " " + lastName));
 
-        if(isEmailTaken){
+        if (isEmailTaken){
             return "Този имейл се използва от друг потребител!";
         }
 

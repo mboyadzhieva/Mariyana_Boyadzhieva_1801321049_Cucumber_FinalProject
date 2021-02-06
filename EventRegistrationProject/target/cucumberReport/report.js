@@ -265,7 +265,7 @@ formatter.examples({
         "298",
         "Skincare",
         "07-02-2021",
-        "Събитието е след по-малко от 24 часа. Срокът за записване е изтекъл!"
+        "Срокът за записване е изтекъл!"
       ],
       "line": 29,
       "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;13"
@@ -367,7 +367,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 564578000,
+  "duration": 518662300,
   "status": "passed"
 });
 formatter.match({
@@ -380,7 +380,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 4323000,
+  "duration": 5840600,
   "status": "passed"
 });
 formatter.match({
@@ -393,7 +393,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 176900,
+  "duration": 138000,
   "status": "passed"
 });
 formatter.match({
@@ -406,7 +406,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 125200,
+  "duration": 129900,
   "status": "passed"
 });
 formatter.match({
@@ -419,7 +419,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 142900,
+  "duration": 176100,
   "status": "passed"
 });
 formatter.match({
@@ -432,7 +432,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 1393700,
+  "duration": 573800,
   "status": "passed"
 });
 formatter.match({
@@ -445,7 +445,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 148500,
+  "duration": 151100,
   "status": "passed"
 });
 formatter.match({
@@ -458,7 +458,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 154400,
+  "duration": 112100,
   "status": "passed"
 });
 formatter.match({
@@ -471,14 +471,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 709800,
+  "duration": 984800,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 14176900,
+  "duration": 9876000,
   "status": "passed"
 });
 formatter.match({
@@ -491,7 +491,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 8029100,
+  "duration": 26735700,
   "status": "passed"
 });
 formatter.scenario({
@@ -588,7 +588,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 113800,
+  "duration": 238400,
   "status": "passed"
 });
 formatter.match({
@@ -601,7 +601,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 93400,
+  "duration": 133000,
   "status": "passed"
 });
 formatter.match({
@@ -614,7 +614,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 121100,
+  "duration": 139300,
   "status": "passed"
 });
 formatter.match({
@@ -627,7 +627,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 177700,
+  "duration": 599200,
   "status": "passed"
 });
 formatter.match({
@@ -640,7 +640,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 148700,
+  "duration": 90800,
   "status": "passed"
 });
 formatter.match({
@@ -653,7 +653,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 463600,
+  "duration": 402700,
   "status": "passed"
 });
 formatter.match({
@@ -666,7 +666,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 90700,
+  "duration": 72700,
   "status": "passed"
 });
 formatter.match({
@@ -679,7 +679,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 98400,
+  "duration": 1311300,
   "status": "passed"
 });
 formatter.match({
@@ -692,14 +692,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 1519300,
+  "duration": 499000,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 55300,
+  "duration": 54400,
   "status": "passed"
 });
 formatter.match({
@@ -712,7 +712,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 95100,
+  "duration": 98000,
   "status": "passed"
 });
 formatter.scenario({
@@ -809,7 +809,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 221200,
+  "duration": 634100,
   "status": "passed"
 });
 formatter.match({
@@ -822,7 +822,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 2861900,
+  "duration": 358100,
   "status": "passed"
 });
 formatter.match({
@@ -835,7 +835,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 137600,
+  "duration": 99800,
   "status": "passed"
 });
 formatter.match({
@@ -848,7 +848,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 110700,
+  "duration": 91900,
   "status": "passed"
 });
 formatter.match({
@@ -861,7 +861,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 82500,
+  "duration": 104400,
   "status": "passed"
 });
 formatter.match({
@@ -874,7 +874,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 542000,
+  "duration": 1808900,
   "status": "passed"
 });
 formatter.match({
@@ -887,7 +887,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 102900,
+  "duration": 89400,
   "status": "passed"
 });
 formatter.match({
@@ -900,7 +900,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 86600,
+  "duration": 88700,
   "status": "passed"
 });
 formatter.match({
@@ -913,14 +913,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 394300,
+  "duration": 396300,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 40000,
+  "duration": 39600,
   "status": "passed"
 });
 formatter.match({
@@ -933,7 +933,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 93900,
+  "duration": 88700,
   "status": "passed"
 });
 formatter.scenario({
@@ -1030,7 +1030,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 252500,
+  "duration": 233600,
   "status": "passed"
 });
 formatter.match({
@@ -1043,7 +1043,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 119200,
+  "duration": 83400,
   "status": "passed"
 });
 formatter.match({
@@ -1056,7 +1056,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 103200,
+  "duration": 89900,
   "status": "passed"
 });
 formatter.match({
@@ -1069,7 +1069,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 123700,
+  "duration": 123300,
   "status": "passed"
 });
 formatter.match({
@@ -1082,7 +1082,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 76100,
+  "duration": 99500,
   "status": "passed"
 });
 formatter.match({
@@ -1095,7 +1095,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 813300,
+  "duration": 680400,
   "status": "passed"
 });
 formatter.match({
@@ -1108,7 +1108,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 110600,
+  "duration": 86200,
   "status": "passed"
 });
 formatter.match({
@@ -1121,7 +1121,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 157700,
+  "duration": 96200,
   "status": "passed"
 });
 formatter.match({
@@ -1134,14 +1134,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 3359800,
+  "duration": 4636700,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 25821700,
+  "duration": 14636400,
   "status": "passed"
 });
 formatter.match({
@@ -1154,7 +1154,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 80900,
+  "duration": 95900,
   "status": "passed"
 });
 formatter.scenario({
@@ -1251,7 +1251,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 91700,
+  "duration": 524000,
   "status": "passed"
 });
 formatter.match({
@@ -1264,7 +1264,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 120000,
+  "duration": 134000,
   "status": "passed"
 });
 formatter.match({
@@ -1277,7 +1277,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 106000,
+  "duration": 116100,
   "status": "passed"
 });
 formatter.match({
@@ -1290,7 +1290,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 82900,
+  "duration": 94500,
   "status": "passed"
 });
 formatter.match({
@@ -1303,7 +1303,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 117900,
+  "duration": 128000,
   "status": "passed"
 });
 formatter.match({
@@ -1316,7 +1316,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 1873900,
+  "duration": 425900,
   "status": "passed"
 });
 formatter.match({
@@ -1329,7 +1329,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 114300,
+  "duration": 104900,
   "status": "passed"
 });
 formatter.match({
@@ -1342,7 +1342,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 271800,
+  "duration": 167100,
   "status": "passed"
 });
 formatter.match({
@@ -1355,14 +1355,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 394600,
+  "duration": 1651300,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 57500,
+  "duration": 98000,
   "status": "passed"
 });
 formatter.match({
@@ -1375,7 +1375,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 121500,
+  "duration": 89100,
   "status": "passed"
 });
 formatter.scenario({
@@ -1472,7 +1472,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 96500,
+  "duration": 245300,
   "status": "passed"
 });
 formatter.match({
@@ -1485,7 +1485,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 151200,
+  "duration": 102000,
   "status": "passed"
 });
 formatter.match({
@@ -1498,7 +1498,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 95700,
+  "duration": 86700,
   "status": "passed"
 });
 formatter.match({
@@ -1511,7 +1511,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 88400,
+  "duration": 1745400,
   "status": "passed"
 });
 formatter.match({
@@ -1524,7 +1524,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 79600,
+  "duration": 86000,
   "status": "passed"
 });
 formatter.match({
@@ -1537,7 +1537,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 714200,
+  "duration": 915900,
   "status": "passed"
 });
 formatter.match({
@@ -1550,7 +1550,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 124800,
+  "duration": 99300,
   "status": "passed"
 });
 formatter.match({
@@ -1563,7 +1563,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 91400,
+  "duration": 87300,
   "status": "passed"
 });
 formatter.match({
@@ -1576,14 +1576,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 967200,
+  "duration": 468500,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 46000,
+  "duration": 46800,
   "status": "passed"
 });
 formatter.match({
@@ -1596,7 +1596,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 99900,
+  "duration": 97000,
   "status": "passed"
 });
 formatter.scenario({
@@ -1693,7 +1693,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 90200,
+  "duration": 226400,
   "status": "passed"
 });
 formatter.match({
@@ -1706,7 +1706,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 117200,
+  "duration": 154100,
   "status": "passed"
 });
 formatter.match({
@@ -1719,7 +1719,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 93700,
+  "duration": 85700,
   "status": "passed"
 });
 formatter.match({
@@ -1732,7 +1732,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 99700,
+  "duration": 86100,
   "status": "passed"
 });
 formatter.match({
@@ -1745,7 +1745,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 114000,
+  "duration": 104900,
   "status": "passed"
 });
 formatter.match({
@@ -1758,7 +1758,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 431800,
+  "duration": 495100,
   "status": "passed"
 });
 formatter.match({
@@ -1771,7 +1771,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 2124500,
+  "duration": 1833900,
   "status": "passed"
 });
 formatter.match({
@@ -1784,7 +1784,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 85600,
+  "duration": 103600,
   "status": "passed"
 });
 formatter.match({
@@ -1797,14 +1797,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 983300,
+  "duration": 649400,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 60900,
+  "duration": 67100,
   "status": "passed"
 });
 formatter.match({
@@ -1817,7 +1817,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 1157300,
+  "duration": 1342700,
   "status": "passed"
 });
 formatter.scenario({
@@ -1914,7 +1914,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 236200,
+  "duration": 100300,
   "status": "passed"
 });
 formatter.match({
@@ -1927,7 +1927,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 689100,
+  "duration": 211300,
   "status": "passed"
 });
 formatter.match({
@@ -1940,7 +1940,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 90700,
+  "duration": 84700,
   "status": "passed"
 });
 formatter.match({
@@ -1953,7 +1953,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 105200,
+  "duration": 87300,
   "status": "passed"
 });
 formatter.match({
@@ -1966,7 +1966,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 98100,
+  "duration": 93300,
   "status": "passed"
 });
 formatter.match({
@@ -1979,7 +1979,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 440000,
+  "duration": 380300,
   "status": "passed"
 });
 formatter.match({
@@ -1992,7 +1992,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 114600,
+  "duration": 89900,
   "status": "passed"
 });
 formatter.match({
@@ -2005,7 +2005,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 88000,
+  "duration": 94200,
   "status": "passed"
 });
 formatter.match({
@@ -2018,14 +2018,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 2705800,
+  "duration": 1035400,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 3117500,
+  "duration": 1293700,
   "status": "passed"
 });
 formatter.match({
@@ -2038,7 +2038,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 90700,
+  "duration": 75700,
   "status": "passed"
 });
 formatter.scenario({
@@ -2135,7 +2135,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 225600,
+  "duration": 237500,
   "status": "passed"
 });
 formatter.match({
@@ -2148,7 +2148,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 100000,
+  "duration": 84000,
   "status": "passed"
 });
 formatter.match({
@@ -2161,7 +2161,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 91900,
+  "duration": 113300,
   "status": "passed"
 });
 formatter.match({
@@ -2174,7 +2174,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 90500,
+  "duration": 106600,
   "status": "passed"
 });
 formatter.match({
@@ -2187,7 +2187,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 82300,
+  "duration": 127800,
   "status": "passed"
 });
 formatter.match({
@@ -2200,7 +2200,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 4276200,
+  "duration": 8239300,
   "status": "passed"
 });
 formatter.match({
@@ -2213,7 +2213,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 80300,
+  "duration": 89100,
   "status": "passed"
 });
 formatter.match({
@@ -2226,7 +2226,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 79500,
+  "duration": 81900,
   "status": "passed"
 });
 formatter.match({
@@ -2239,14 +2239,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 1397200,
+  "duration": 929800,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 792800,
+  "duration": 3932100,
   "status": "passed"
 });
 formatter.match({
@@ -2259,7 +2259,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 81200,
+  "duration": 87200,
   "status": "passed"
 });
 formatter.scenario({
@@ -2356,7 +2356,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 347900,
+  "duration": 103200,
   "status": "passed"
 });
 formatter.match({
@@ -2369,7 +2369,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 78000,
+  "duration": 82600,
   "status": "passed"
 });
 formatter.match({
@@ -2382,7 +2382,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 90600,
+  "duration": 114000,
   "status": "passed"
 });
 formatter.match({
@@ -2395,7 +2395,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 83000,
+  "duration": 83500,
   "status": "passed"
 });
 formatter.match({
@@ -2408,7 +2408,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 1442900,
+  "duration": 84500,
   "status": "passed"
 });
 formatter.match({
@@ -2421,7 +2421,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 2735400,
+  "duration": 1643900,
   "status": "passed"
 });
 formatter.match({
@@ -2434,7 +2434,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 79500,
+  "duration": 110300,
   "status": "passed"
 });
 formatter.match({
@@ -2447,7 +2447,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 86100,
+  "duration": 211100,
   "status": "passed"
 });
 formatter.match({
@@ -2460,14 +2460,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 1031600,
+  "duration": 10907000,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 820900,
+  "duration": 8733700,
   "status": "passed"
 });
 formatter.match({
@@ -2480,7 +2480,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 77500,
+  "duration": 90000,
   "status": "passed"
 });
 formatter.scenario({
@@ -2577,7 +2577,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 209800,
+  "duration": 215600,
   "status": "passed"
 });
 formatter.match({
@@ -2590,7 +2590,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 92800,
+  "duration": 219900,
   "status": "passed"
 });
 formatter.match({
@@ -2603,7 +2603,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 78600,
+  "duration": 141000,
   "status": "passed"
 });
 formatter.match({
@@ -2616,7 +2616,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 113700,
+  "duration": 135600,
   "status": "passed"
 });
 formatter.match({
@@ -2629,7 +2629,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 76900,
+  "duration": 134200,
   "status": "passed"
 });
 formatter.match({
@@ -2642,7 +2642,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 452100,
+  "duration": 423500,
   "status": "passed"
 });
 formatter.match({
@@ -2655,7 +2655,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 162800,
+  "duration": 1540800,
   "status": "passed"
 });
 formatter.match({
@@ -2668,7 +2668,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 79200,
+  "duration": 91600,
   "status": "passed"
 });
 formatter.match({
@@ -2681,14 +2681,14 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 492100,
+  "duration": 401500,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 1763800,
+  "duration": 2461800,
   "status": "passed"
 });
 formatter.match({
@@ -2701,7 +2701,7 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 93600,
+  "duration": 100200,
   "status": "passed"
 });
 formatter.scenario({
@@ -2788,7 +2788,7 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "Вижда съобщение \"Събитието е след по-малко от 24 часа. Срокът за записване е изтекъл!\" за резултата от регистрацията.",
+  "name": "Вижда съобщение \"Срокът за записване е изтекъл!\" за резултата от регистрацията.",
   "matchedColumns": [
     8
   ],
@@ -2798,7 +2798,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 87600,
+  "duration": 97700,
   "status": "passed"
 });
 formatter.match({
@@ -2811,7 +2811,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 199700,
+  "duration": 1858500,
   "status": "passed"
 });
 formatter.match({
@@ -2824,7 +2824,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 68500,
+  "duration": 96400,
   "status": "passed"
 });
 formatter.match({
@@ -2837,7 +2837,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 69100,
+  "duration": 70400,
   "status": "passed"
 });
 formatter.match({
@@ -2850,7 +2850,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 80000,
+  "duration": 80400,
   "status": "passed"
 });
 formatter.match({
@@ -2863,7 +2863,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 1025400,
+  "duration": 2795800,
   "status": "passed"
 });
 formatter.match({
@@ -2876,7 +2876,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 122900,
+  "duration": 127800,
   "status": "passed"
 });
 formatter.match({
@@ -2889,7 +2889,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 85100,
+  "duration": 79300,
   "status": "passed"
 });
 formatter.match({
@@ -2902,27 +2902,27 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 435800,
+  "duration": 438100,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 860000,
+  "duration": 1250800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Събитието е след по-малко от 24 часа. Срокът за записване е изтекъл!",
+      "val": "Срокът за записване е изтекъл!",
       "offset": 17
     }
   ],
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 76700,
+  "duration": 83600,
   "status": "passed"
 });
 });
