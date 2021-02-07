@@ -1,1 +1,1 @@
-# Simple BDD project built with Cucumber, allowing people to register and pay for different events.
+# Simple BDD project built with Cucumber, the idea of which is registering and paying for different events.
