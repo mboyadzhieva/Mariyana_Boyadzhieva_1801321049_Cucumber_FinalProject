@@ -5,9 +5,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import uni.pu.fmi.models.EventRegistrationModel;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import static org.junit.Assert.assertEquals;
 
 public class EventRegistrationSteps {
@@ -41,9 +38,7 @@ public class EventRegistrationSteps {
 
     @When("^Въвежда дата на изтичане на кредитната карта \"([^\"]*)\"$")
     public void addCreditCardExpiration(String creditCardExpiration) throws Throwable {
-        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
-        Date date = sdf.parse(creditCardExpiration);
-        eventModel.setCreditCardExpiration(date);
+        eventModel.setCreditCardExpiration(creditCardExpiration);
     }
 
     @When("^Въвежда CVC номер на кредитната карта \"([^\"]*)\"$")
@@ -58,9 +53,7 @@ public class EventRegistrationSteps {
 
     @When("^Въвежда датата на събитието \"([^\"]*)\"$")
     public void addEventDate(String eventDate) throws Throwable {
-        SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy");
-        Date date = sdf.parse(eventDate);
-        eventModel.setEventDate(date);
+        eventModel.setEventDate(eventDate);
     }
 
     @When("^Натиска върху бутона за изпращане на данните\\.$")

@@ -92,15 +92,15 @@ formatter.examples({
     },
     {
       "cells": [
-        "Jane",
+        "",
         "Doe",
         "janedoe@gmail.com",
         "2020202020667687",
         "23-04-2023",
         "298",
         "Social media marketing",
-        "23-02-2021",
-        "Успешно се регистрирахте и заплатихте за избраното събитие!"
+        "23-02-2021 17:30",
+        "Всички полета са задължителни!"
       ],
       "line": 18,
       "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;2"
@@ -108,13 +108,13 @@ formatter.examples({
     {
       "cells": [
         "",
-        "Doe",
+        "",
         "janedoe@gmail.com",
         "2020202020667687",
         "23-04-2023",
         "298",
         "Social media marketing",
-        "23-02-2021",
+        "23-02-2021 17:30",
         "Всички полета са задължителни!"
       ],
       "line": 19,
@@ -122,15 +122,15 @@ formatter.examples({
     },
     {
       "cells": [
-        "",
-        "",
+        "Jane",
+        "Doe",
         "janedoe@gmail.com",
         "2020202020667687",
         "23-04-2023",
         "298",
         "Social media marketing",
-        "23-02-2021",
-        "Всички полета са задължителни!"
+        "9999",
+        "Датата на събитието не е в правилния формат!"
       ],
       "line": 20,
       "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;4"
@@ -139,61 +139,16 @@ formatter.examples({
       "cells": [
         "Jane",
         "Doe",
-        "johndoe@gmail.com",
+        "janedoe@gmail.com",
         "2020202020667687",
-        "23-04-2023",
+        "23/04/2023",
         "298",
         "Social media marketing",
-        "23-02-2021",
-        "Този имейл се използва от друг потребител!"
+        "23-02-2021 17:30",
+        "Датата на изтичане на валидността на кредитната карта не е в правилния формат!"
       ],
       "line": 21,
       "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;5"
-    },
-    {
-      "cells": [
-        "Jane",
-        "Doe",
-        "janedoe@gmail.com",
-        "202020202066768",
-        "23-04-2023",
-        "298",
-        "Social media marketing",
-        "23-02-2021",
-        "Номерът на кредитната Ви карта е невалиден!"
-      ],
-      "line": 22,
-      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;6"
-    },
-    {
-      "cells": [
-        "Jane",
-        "Doe",
-        "janedoe@gmail.com",
-        "2020202020667687",
-        "23-04-2023",
-        "29833",
-        "Social media marketing",
-        "23-02-2021",
-        "Невалиден CVC номер!"
-      ],
-      "line": 23,
-      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;7"
-    },
-    {
-      "cells": [
-        "Jane",
-        "Doe",
-        "janedoe@gmail.com",
-        "2020202020667687",
-        "03-02-2021",
-        "298",
-        "Social media marketing",
-        "23-02-2021",
-        "Картата Ви е с изтекъл срок!"
-      ],
-      "line": 24,
-      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;8"
     },
     {
       "cells": [
@@ -204,11 +159,11 @@ formatter.examples({
         "03-02-2023",
         "298",
         "Social marketing",
-        "23-02-2021",
+        "23-02-2021 17:30",
         "Няма такова събитие. Моля проверете въведените данни!"
       ],
-      "line": 25,
-      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;9"
+      "line": 22,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;6"
     },
     {
       "cells": [
@@ -219,11 +174,11 @@ formatter.examples({
         "03-02-2023",
         "298",
         "Social media marketing",
-        "22-02-2021",
+        "22-02-2021 14:30",
         "Няма такова събитие. Моля проверете въведените данни!"
       ],
-      "line": 26,
-      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;10"
+      "line": 23,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;7"
     },
     {
       "cells": [
@@ -234,11 +189,11 @@ formatter.examples({
         "03-02-2023",
         "298",
         "Software Engineering",
-        "22-02-2021",
+        "22-02-2021 12:30",
         "Всички места са заети!"
       ],
-      "line": 27,
-      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;11"
+      "line": 24,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;8"
     },
     {
       "cells": [
@@ -249,11 +204,11 @@ formatter.examples({
         "13-12-2025",
         "138",
         "Social media marketing",
-        "23-02-2021",
+        "23-02-2021 17:30",
         "Вече сте регистрирани за това събитие!"
       ],
-      "line": 28,
-      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;12"
+      "line": 25,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;9"
     },
     {
       "cells": [
@@ -264,11 +219,116 @@ formatter.examples({
         "23-04-2023",
         "298",
         "Skincare",
-        "07-02-2021",
+        "09-02-2021 08:00",
         "Срокът за записване е изтекъл!"
+      ],
+      "line": 26,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;10"
+    },
+    {
+      "cells": [
+        "Jane",
+        "Doe",
+        "johndoe@gmail.com",
+        "2020202020667687",
+        "23-04-2023",
+        "298",
+        "Social media marketing",
+        "23-02-2021 17:30",
+        "Този имейл се използва от друг потребител!"
+      ],
+      "line": 27,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;11"
+    },
+    {
+      "cells": [
+        "Jane",
+        "Doe",
+        "janedoe@gmail.com",
+        "202020202066768",
+        "23-04-2023",
+        "298",
+        "Social media marketing",
+        "23-02-2021 17:30",
+        "Номерът на кредитната Ви карта е невалиден!"
+      ],
+      "line": 28,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;12"
+    },
+    {
+      "cells": [
+        "Jane",
+        "Doe",
+        "janedoe@gmail.com",
+        "20202020206676873921",
+        "23-04-2023",
+        "298",
+        "Social media marketing",
+        "23-02-2021 17:30",
+        "Номерът на кредитната Ви карта е невалиден!"
       ],
       "line": 29,
       "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;13"
+    },
+    {
+      "cells": [
+        "Jane",
+        "Doe",
+        "janedoe@gmail.com",
+        "2020202020667687",
+        "23-04-2023",
+        "29833",
+        "Social media marketing",
+        "23-02-2021 17:30",
+        "Невалиден CVC номер!"
+      ],
+      "line": 30,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;14"
+    },
+    {
+      "cells": [
+        "Jane",
+        "Doe",
+        "janedoe@gmail.com",
+        "2020202020667687",
+        "23-04-2023",
+        "29",
+        "Social media marketing",
+        "23-02-2021 17:30",
+        "Невалиден CVC номер!"
+      ],
+      "line": 31,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;15"
+    },
+    {
+      "cells": [
+        "Jane",
+        "Doe",
+        "janedoe@gmail.com",
+        "2020202020667687",
+        "03-02-2021",
+        "298",
+        "Social media marketing",
+        "23-02-2021 17:30",
+        "Картата Ви е с изтекъл срок!"
+      ],
+      "line": 32,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;16"
+    },
+    {
+      "cells": [
+        "Jane",
+        "Doe",
+        "janedoe@gmail.com",
+        "2020202020667687",
+        "23-04-2023",
+        "298",
+        "Social media marketing",
+        "23-02-2021 17:30",
+        "Успешно се регистрирахте и заплатихте за избраното събитие!"
+      ],
+      "line": 33,
+      "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;17"
     }
   ],
   "keyword": "Examples"
@@ -278,227 +338,6 @@ formatter.scenario({
   "name": "Регистрация за събитие",
   "description": "",
   "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "Потребителят отваря страницата за записване за събитие.",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "Въвежда име \"Jane\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "Въвежда фамилия \"Doe\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "Въвежда имейл \"janedoe@gmail.com\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "Въвежда номер на кредитна карта \"2020202020667687\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "Въвежда CVC номер на кредитната карта \"298\"",
-  "matchedColumns": [
-    5
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "Въвежда името на събитието \"Social media marketing\"",
-  "matchedColumns": [
-    6
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "Въвежда датата на събитието \"23-02-2021\"",
-  "matchedColumns": [
-    7
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 13,
-  "name": "Натиска върху бутона за изпращане на данните.",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "Вижда съобщение \"Успешно се регистрирахте и заплатихте за избраното събитие!\" за резултата от регистрацията.",
-  "matchedColumns": [
-    8
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "EventRegistrationSteps.openHomeScreen()"
-});
-formatter.result({
-  "duration": 518662300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Jane",
-      "offset": 13
-    }
-  ],
-  "location": "EventRegistrationSteps.addFirstName(String)"
-});
-formatter.result({
-  "duration": 5840600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Doe",
-      "offset": 17
-    }
-  ],
-  "location": "EventRegistrationSteps.addLastName(String)"
-});
-formatter.result({
-  "duration": 138000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "janedoe@gmail.com",
-      "offset": 15
-    }
-  ],
-  "location": "EventRegistrationSteps.addEmail(String)"
-});
-formatter.result({
-  "duration": 129900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2020202020667687",
-      "offset": 33
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardNum(String)"
-});
-formatter.result({
-  "duration": 176100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "23-04-2023",
-      "offset": 46
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
-});
-formatter.result({
-  "duration": 573800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "298",
-      "offset": 39
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
-});
-formatter.result({
-  "duration": 151100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Social media marketing",
-      "offset": 28
-    }
-  ],
-  "location": "EventRegistrationSteps.addEventTopic(String)"
-});
-formatter.result({
-  "duration": 112100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "23-02-2021",
-      "offset": 29
-    }
-  ],
-  "location": "EventRegistrationSteps.addEventDate(String)"
-});
-formatter.result({
-  "duration": 984800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "EventRegistrationSteps.clickSendDataBtn()"
-});
-formatter.result({
-  "duration": 9876000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Успешно се регистрирахте и заплатихте за избраното събитие!",
-      "offset": 17
-    }
-  ],
-  "location": "EventRegistrationSteps.getMessage(String)"
-});
-formatter.result({
-  "duration": 26735700,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 19,
-  "name": "Регистрация за събитие",
-  "description": "",
-  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -565,7 +404,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "Въвежда датата на събитието \"23-02-2021\"",
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
   "matchedColumns": [
     7
   ],
@@ -588,7 +427,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 238400,
+  "duration": 455614000,
   "status": "passed"
 });
 formatter.match({
@@ -601,7 +440,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 133000,
+  "duration": 6515600,
   "status": "passed"
 });
 formatter.match({
@@ -614,7 +453,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 139300,
+  "duration": 125300,
   "status": "passed"
 });
 formatter.match({
@@ -627,7 +466,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 599200,
+  "duration": 1308400,
   "status": "passed"
 });
 formatter.match({
@@ -640,7 +479,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 90800,
+  "duration": 112800,
   "status": "passed"
 });
 formatter.match({
@@ -653,7 +492,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 402700,
+  "duration": 125500,
   "status": "passed"
 });
 formatter.match({
@@ -666,7 +505,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 72700,
+  "duration": 580900,
   "status": "passed"
 });
 formatter.match({
@@ -679,27 +518,27 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 1311300,
+  "duration": 108500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "23-02-2021",
+      "val": "23-02-2021 17:30",
       "offset": 29
     }
   ],
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 499000,
+  "duration": 130800,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 54400,
+  "duration": 143300,
   "status": "passed"
 });
 formatter.match({
@@ -712,14 +551,14 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 98000,
+  "duration": 5623900,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 20,
+  "line": 19,
   "name": "Регистрация за събитие",
   "description": "",
-  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;4",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;3",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -786,7 +625,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "Въвежда датата на събитието \"23-02-2021\"",
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
   "matchedColumns": [
     7
   ],
@@ -809,7 +648,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 634100,
+  "duration": 108200,
   "status": "passed"
 });
 formatter.match({
@@ -822,7 +661,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 358100,
+  "duration": 115700,
   "status": "passed"
 });
 formatter.match({
@@ -835,7 +674,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 99800,
+  "duration": 942000,
   "status": "passed"
 });
 formatter.match({
@@ -848,7 +687,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 91900,
+  "duration": 99000,
   "status": "passed"
 });
 formatter.match({
@@ -861,7 +700,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 104400,
+  "duration": 160800,
   "status": "passed"
 });
 formatter.match({
@@ -874,7 +713,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 1808900,
+  "duration": 91200,
   "status": "passed"
 });
 formatter.match({
@@ -887,7 +726,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 89400,
+  "duration": 100500,
   "status": "passed"
 });
 formatter.match({
@@ -900,27 +739,27 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 88700,
+  "duration": 106600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "23-02-2021",
+      "val": "23-02-2021 17:30",
       "offset": 29
     }
   ],
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 396300,
+  "duration": 85300,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 39600,
+  "duration": 35700,
   "status": "passed"
 });
 formatter.match({
@@ -933,7 +772,228 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 88700,
+  "duration": 111400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 20,
+  "name": "Регистрация за събитие",
+  "description": "",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Потребителят отваря страницата за записване за събитие.",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Въвежда име \"Jane\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "Въвежда фамилия \"Doe\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "Въвежда имейл \"janedoe@gmail.com\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Въвежда номер на кредитна карта \"2020202020667687\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Въвежда CVC номер на кредитната карта \"298\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Въвежда името на събитието \"Social media marketing\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Въвежда датата на събитието \"9999\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "Натиска върху бутона за изпращане на данните.",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "Вижда съобщение \"Датата на събитието не е в правилния формат!\" за резултата от регистрацията.",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EventRegistrationSteps.openHomeScreen()"
+});
+formatter.result({
+  "duration": 239600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jane",
+      "offset": 13
+    }
+  ],
+  "location": "EventRegistrationSteps.addFirstName(String)"
+});
+formatter.result({
+  "duration": 130000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Doe",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.addLastName(String)"
+});
+formatter.result({
+  "duration": 94500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "janedoe@gmail.com",
+      "offset": 15
+    }
+  ],
+  "location": "EventRegistrationSteps.addEmail(String)"
+});
+formatter.result({
+  "duration": 111500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2020202020667687",
+      "offset": 33
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardNum(String)"
+});
+formatter.result({
+  "duration": 399700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-04-2023",
+      "offset": 46
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
+});
+formatter.result({
+  "duration": 104600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "298",
+      "offset": 39
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
+});
+formatter.result({
+  "duration": 119300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Social media marketing",
+      "offset": 28
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventTopic(String)"
+});
+formatter.result({
+  "duration": 101200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "9999",
+      "offset": 29
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventDate(String)"
+});
+formatter.result({
+  "duration": 87800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EventRegistrationSteps.clickSendDataBtn()"
+});
+formatter.result({
+  "duration": 5084400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Датата на събитието не е в правилния формат!",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.getMessage(String)"
+});
+formatter.result({
+  "duration": 95800,
   "status": "passed"
 });
 formatter.scenario({
@@ -967,7 +1027,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "Въвежда имейл \"johndoe@gmail.com\"",
+  "name": "Въвежда имейл \"janedoe@gmail.com\"",
   "matchedColumns": [
     2
   ],
@@ -983,7 +1043,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
+  "name": "Въвежда дата на изтичане на кредитната карта \"23/04/2023\"",
   "matchedColumns": [
     4
   ],
@@ -1007,7 +1067,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "Въвежда датата на събитието \"23-02-2021\"",
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
   "matchedColumns": [
     7
   ],
@@ -1020,7 +1080,7 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "Вижда съобщение \"Този имейл се използва от друг потребител!\" за резултата от регистрацията.",
+  "name": "Вижда съобщение \"Датата на изтичане на валидността на кредитната карта не е в правилния формат!\" за резултата от регистрацията.",
   "matchedColumns": [
     8
   ],
@@ -1030,7 +1090,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 233600,
+  "duration": 99800,
   "status": "passed"
 });
 formatter.match({
@@ -1043,7 +1103,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 83400,
+  "duration": 93700,
   "status": "passed"
 });
 formatter.match({
@@ -1056,20 +1116,20 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 89900,
+  "duration": 108700,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "johndoe@gmail.com",
+      "val": "janedoe@gmail.com",
       "offset": 15
     }
   ],
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 123300,
+  "duration": 104400,
   "status": "passed"
 });
 formatter.match({
@@ -1082,20 +1142,20 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 99500,
+  "duration": 91100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "23-04-2023",
+      "val": "23/04/2023",
       "offset": 46
     }
   ],
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 680400,
+  "duration": 222800,
   "status": "passed"
 });
 formatter.match({
@@ -1108,7 +1168,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 86200,
+  "duration": 81700,
   "status": "passed"
 });
 formatter.match({
@@ -1121,40 +1181,40 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 96200,
+  "duration": 127100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "23-02-2021",
+      "val": "23-02-2021 17:30",
       "offset": 29
     }
   ],
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 4636700,
+  "duration": 87900,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 14636400,
+  "duration": 2264600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Този имейл се използва от друг потребител!",
+      "val": "Датата на изтичане на валидността на кредитната карта не е в правилния формат!",
       "offset": 17
     }
   ],
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 95900,
+  "duration": 1400000,
   "status": "passed"
 });
 formatter.scenario({
@@ -1162,669 +1222,6 @@ formatter.scenario({
   "name": "Регистрация за събитие",
   "description": "",
   "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;6",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "Потребителят отваря страницата за записване за събитие.",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "Въвежда име \"Jane\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "Въвежда фамилия \"Doe\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "Въвежда имейл \"janedoe@gmail.com\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "Въвежда номер на кредитна карта \"202020202066768\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "Въвежда CVC номер на кредитната карта \"298\"",
-  "matchedColumns": [
-    5
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "Въвежда името на събитието \"Social media marketing\"",
-  "matchedColumns": [
-    6
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "Въвежда датата на събитието \"23-02-2021\"",
-  "matchedColumns": [
-    7
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 13,
-  "name": "Натиска върху бутона за изпращане на данните.",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "Вижда съобщение \"Номерът на кредитната Ви карта е невалиден!\" за резултата от регистрацията.",
-  "matchedColumns": [
-    8
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "EventRegistrationSteps.openHomeScreen()"
-});
-formatter.result({
-  "duration": 524000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Jane",
-      "offset": 13
-    }
-  ],
-  "location": "EventRegistrationSteps.addFirstName(String)"
-});
-formatter.result({
-  "duration": 134000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Doe",
-      "offset": 17
-    }
-  ],
-  "location": "EventRegistrationSteps.addLastName(String)"
-});
-formatter.result({
-  "duration": 116100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "janedoe@gmail.com",
-      "offset": 15
-    }
-  ],
-  "location": "EventRegistrationSteps.addEmail(String)"
-});
-formatter.result({
-  "duration": 94500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "202020202066768",
-      "offset": 33
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardNum(String)"
-});
-formatter.result({
-  "duration": 128000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "23-04-2023",
-      "offset": 46
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
-});
-formatter.result({
-  "duration": 425900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "298",
-      "offset": 39
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
-});
-formatter.result({
-  "duration": 104900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Social media marketing",
-      "offset": 28
-    }
-  ],
-  "location": "EventRegistrationSteps.addEventTopic(String)"
-});
-formatter.result({
-  "duration": 167100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "23-02-2021",
-      "offset": 29
-    }
-  ],
-  "location": "EventRegistrationSteps.addEventDate(String)"
-});
-formatter.result({
-  "duration": 1651300,
-  "status": "passed"
-});
-formatter.match({
-  "location": "EventRegistrationSteps.clickSendDataBtn()"
-});
-formatter.result({
-  "duration": 98000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Номерът на кредитната Ви карта е невалиден!",
-      "offset": 17
-    }
-  ],
-  "location": "EventRegistrationSteps.getMessage(String)"
-});
-formatter.result({
-  "duration": 89100,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 23,
-  "name": "Регистрация за събитие",
-  "description": "",
-  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;7",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "Потребителят отваря страницата за записване за събитие.",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "Въвежда име \"Jane\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "Въвежда фамилия \"Doe\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "Въвежда имейл \"janedoe@gmail.com\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "Въвежда номер на кредитна карта \"2020202020667687\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "Въвежда CVC номер на кредитната карта \"29833\"",
-  "matchedColumns": [
-    5
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "Въвежда името на събитието \"Social media marketing\"",
-  "matchedColumns": [
-    6
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "Въвежда датата на събитието \"23-02-2021\"",
-  "matchedColumns": [
-    7
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 13,
-  "name": "Натиска върху бутона за изпращане на данните.",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "Вижда съобщение \"Невалиден CVC номер!\" за резултата от регистрацията.",
-  "matchedColumns": [
-    8
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "EventRegistrationSteps.openHomeScreen()"
-});
-formatter.result({
-  "duration": 245300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Jane",
-      "offset": 13
-    }
-  ],
-  "location": "EventRegistrationSteps.addFirstName(String)"
-});
-formatter.result({
-  "duration": 102000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Doe",
-      "offset": 17
-    }
-  ],
-  "location": "EventRegistrationSteps.addLastName(String)"
-});
-formatter.result({
-  "duration": 86700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "janedoe@gmail.com",
-      "offset": 15
-    }
-  ],
-  "location": "EventRegistrationSteps.addEmail(String)"
-});
-formatter.result({
-  "duration": 1745400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2020202020667687",
-      "offset": 33
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardNum(String)"
-});
-formatter.result({
-  "duration": 86000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "23-04-2023",
-      "offset": 46
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
-});
-formatter.result({
-  "duration": 915900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "29833",
-      "offset": 39
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
-});
-formatter.result({
-  "duration": 99300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Social media marketing",
-      "offset": 28
-    }
-  ],
-  "location": "EventRegistrationSteps.addEventTopic(String)"
-});
-formatter.result({
-  "duration": 87300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "23-02-2021",
-      "offset": 29
-    }
-  ],
-  "location": "EventRegistrationSteps.addEventDate(String)"
-});
-formatter.result({
-  "duration": 468500,
-  "status": "passed"
-});
-formatter.match({
-  "location": "EventRegistrationSteps.clickSendDataBtn()"
-});
-formatter.result({
-  "duration": 46800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Невалиден CVC номер!",
-      "offset": 17
-    }
-  ],
-  "location": "EventRegistrationSteps.getMessage(String)"
-});
-formatter.result({
-  "duration": 97000,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 24,
-  "name": "Регистрация за събитие",
-  "description": "",
-  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;8",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "Потребителят отваря страницата за записване за събитие.",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "Въвежда име \"Jane\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "Въвежда фамилия \"Doe\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "Въвежда имейл \"janedoe@gmail.com\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "Въвежда номер на кредитна карта \"2020202020667687\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "Въвежда дата на изтичане на кредитната карта \"03-02-2021\"",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "Въвежда CVC номер на кредитната карта \"298\"",
-  "matchedColumns": [
-    5
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "Въвежда името на събитието \"Social media marketing\"",
-  "matchedColumns": [
-    6
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "Въвежда датата на събитието \"23-02-2021\"",
-  "matchedColumns": [
-    7
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 13,
-  "name": "Натиска върху бутона за изпращане на данните.",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "Вижда съобщение \"Картата Ви е с изтекъл срок!\" за резултата от регистрацията.",
-  "matchedColumns": [
-    8
-  ],
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "EventRegistrationSteps.openHomeScreen()"
-});
-formatter.result({
-  "duration": 226400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Jane",
-      "offset": 13
-    }
-  ],
-  "location": "EventRegistrationSteps.addFirstName(String)"
-});
-formatter.result({
-  "duration": 154100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Doe",
-      "offset": 17
-    }
-  ],
-  "location": "EventRegistrationSteps.addLastName(String)"
-});
-formatter.result({
-  "duration": 85700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "janedoe@gmail.com",
-      "offset": 15
-    }
-  ],
-  "location": "EventRegistrationSteps.addEmail(String)"
-});
-formatter.result({
-  "duration": 86100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "2020202020667687",
-      "offset": 33
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardNum(String)"
-});
-formatter.result({
-  "duration": 104900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "03-02-2021",
-      "offset": 46
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
-});
-formatter.result({
-  "duration": 495100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "298",
-      "offset": 39
-    }
-  ],
-  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
-});
-formatter.result({
-  "duration": 1833900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Social media marketing",
-      "offset": 28
-    }
-  ],
-  "location": "EventRegistrationSteps.addEventTopic(String)"
-});
-formatter.result({
-  "duration": 103600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "23-02-2021",
-      "offset": 29
-    }
-  ],
-  "location": "EventRegistrationSteps.addEventDate(String)"
-});
-formatter.result({
-  "duration": 649400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "EventRegistrationSteps.clickSendDataBtn()"
-});
-formatter.result({
-  "duration": 67100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Картата Ви е с изтекъл срок!",
-      "offset": 17
-    }
-  ],
-  "location": "EventRegistrationSteps.getMessage(String)"
-});
-formatter.result({
-  "duration": 1342700,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 25,
-  "name": "Регистрация за събитие",
-  "description": "",
-  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;9",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -1891,7 +1288,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "Въвежда датата на събитието \"23-02-2021\"",
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
   "matchedColumns": [
     7
   ],
@@ -1914,7 +1311,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 100300,
+  "duration": 99100,
   "status": "passed"
 });
 formatter.match({
@@ -1927,7 +1324,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 211300,
+  "duration": 100700,
   "status": "passed"
 });
 formatter.match({
@@ -1940,7 +1337,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 84700,
+  "duration": 87500,
   "status": "passed"
 });
 formatter.match({
@@ -1953,7 +1350,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 87300,
+  "duration": 89000,
   "status": "passed"
 });
 formatter.match({
@@ -1966,7 +1363,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 93300,
+  "duration": 87500,
   "status": "passed"
 });
 formatter.match({
@@ -1979,7 +1376,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 380300,
+  "duration": 111300,
   "status": "passed"
 });
 formatter.match({
@@ -1992,7 +1389,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 89900,
+  "duration": 104400,
   "status": "passed"
 });
 formatter.match({
@@ -2005,27 +1402,27 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 94200,
+  "duration": 2234800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "23-02-2021",
+      "val": "23-02-2021 17:30",
       "offset": 29
     }
   ],
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 1035400,
+  "duration": 104900,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 1293700,
+  "duration": 27848900,
   "status": "passed"
 });
 formatter.match({
@@ -2038,14 +1435,14 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 75700,
+  "duration": 87600,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 26,
+  "line": 23,
   "name": "Регистрация за събитие",
   "description": "",
-  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;10",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;7",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -2112,7 +1509,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "Въвежда датата на събитието \"22-02-2021\"",
+  "name": "Въвежда датата на събитието \"22-02-2021 14:30\"",
   "matchedColumns": [
     7
   ],
@@ -2135,7 +1532,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 237500,
+  "duration": 259300,
   "status": "passed"
 });
 formatter.match({
@@ -2148,7 +1545,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 84000,
+  "duration": 190700,
   "status": "passed"
 });
 formatter.match({
@@ -2161,7 +1558,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 113300,
+  "duration": 95700,
   "status": "passed"
 });
 formatter.match({
@@ -2174,7 +1571,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 106600,
+  "duration": 434500,
   "status": "passed"
 });
 formatter.match({
@@ -2187,7 +1584,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 127800,
+  "duration": 98500,
   "status": "passed"
 });
 formatter.match({
@@ -2200,7 +1597,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 8239300,
+  "duration": 89400,
   "status": "passed"
 });
 formatter.match({
@@ -2213,7 +1610,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 89100,
+  "duration": 99600,
   "status": "passed"
 });
 formatter.match({
@@ -2226,27 +1623,27 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 81900,
+  "duration": 122800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "22-02-2021",
+      "val": "22-02-2021 14:30",
       "offset": 29
     }
   ],
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 929800,
+  "duration": 111800,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 3932100,
+  "duration": 4868400,
   "status": "passed"
 });
 formatter.match({
@@ -2259,14 +1656,14 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 87200,
+  "duration": 109100,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 27,
+  "line": 24,
   "name": "Регистрация за събитие",
   "description": "",
-  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;11",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;8",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -2333,7 +1730,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "Въвежда датата на събитието \"22-02-2021\"",
+  "name": "Въвежда датата на събитието \"22-02-2021 12:30\"",
   "matchedColumns": [
     7
   ],
@@ -2356,7 +1753,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 103200,
+  "duration": 89800,
   "status": "passed"
 });
 formatter.match({
@@ -2369,7 +1766,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 82600,
+  "duration": 98700,
   "status": "passed"
 });
 formatter.match({
@@ -2382,7 +1779,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 114000,
+  "duration": 106100,
   "status": "passed"
 });
 formatter.match({
@@ -2395,7 +1792,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 83500,
+  "duration": 102600,
   "status": "passed"
 });
 formatter.match({
@@ -2408,7 +1805,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 84500,
+  "duration": 103300,
   "status": "passed"
 });
 formatter.match({
@@ -2421,7 +1818,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 1643900,
+  "duration": 83400,
   "status": "passed"
 });
 formatter.match({
@@ -2434,7 +1831,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 110300,
+  "duration": 1747000,
   "status": "passed"
 });
 formatter.match({
@@ -2447,27 +1844,27 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 211100,
+  "duration": 88400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "22-02-2021",
+      "val": "22-02-2021 12:30",
       "offset": 29
     }
   ],
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 10907000,
+  "duration": 117400,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 8733700,
+  "duration": 2589500,
   "status": "passed"
 });
 formatter.match({
@@ -2480,14 +1877,14 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 90000,
+  "duration": 1661200,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 28,
+  "line": 25,
   "name": "Регистрация за събитие",
   "description": "",
-  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;12",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;9",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -2554,7 +1951,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "Въвежда датата на събитието \"23-02-2021\"",
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
   "matchedColumns": [
     7
   ],
@@ -2577,7 +1974,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 215600,
+  "duration": 2236800,
   "status": "passed"
 });
 formatter.match({
@@ -2590,7 +1987,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 219900,
+  "duration": 195500,
   "status": "passed"
 });
 formatter.match({
@@ -2603,7 +2000,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 141000,
+  "duration": 113300,
   "status": "passed"
 });
 formatter.match({
@@ -2616,7 +2013,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 135600,
+  "duration": 88700,
   "status": "passed"
 });
 formatter.match({
@@ -2629,7 +2026,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 134200,
+  "duration": 82800,
   "status": "passed"
 });
 formatter.match({
@@ -2642,7 +2039,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 423500,
+  "duration": 88300,
   "status": "passed"
 });
 formatter.match({
@@ -2655,7 +2052,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 1540800,
+  "duration": 94600,
   "status": "passed"
 });
 formatter.match({
@@ -2668,27 +2065,27 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 91600,
+  "duration": 96200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "23-02-2021",
+      "val": "23-02-2021 17:30",
       "offset": 29
     }
   ],
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 401500,
+  "duration": 81700,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 2461800,
+  "duration": 10790900,
   "status": "passed"
 });
 formatter.match({
@@ -2701,14 +2098,14 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 100200,
+  "duration": 100300,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 29,
+  "line": 26,
   "name": "Регистрация за събитие",
   "description": "",
-  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;13",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;10",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
@@ -2775,7 +2172,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "Въвежда датата на събитието \"07-02-2021\"",
+  "name": "Въвежда датата на събитието \"09-02-2021 08:00\"",
   "matchedColumns": [
     7
   ],
@@ -2798,7 +2195,7 @@ formatter.match({
   "location": "EventRegistrationSteps.openHomeScreen()"
 });
 formatter.result({
-  "duration": 97700,
+  "duration": 108800,
   "status": "passed"
 });
 formatter.match({
@@ -2811,7 +2208,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addFirstName(String)"
 });
 formatter.result({
-  "duration": 1858500,
+  "duration": 86200,
   "status": "passed"
 });
 formatter.match({
@@ -2824,7 +2221,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addLastName(String)"
 });
 formatter.result({
-  "duration": 96400,
+  "duration": 83200,
   "status": "passed"
 });
 formatter.match({
@@ -2837,7 +2234,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addEmail(String)"
 });
 formatter.result({
-  "duration": 70400,
+  "duration": 80600,
   "status": "passed"
 });
 formatter.match({
@@ -2850,7 +2247,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardNum(String)"
 });
 formatter.result({
-  "duration": 80400,
+  "duration": 93100,
   "status": "passed"
 });
 formatter.match({
@@ -2863,7 +2260,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
 });
 formatter.result({
-  "duration": 2795800,
+  "duration": 79800,
   "status": "passed"
 });
 formatter.match({
@@ -2876,7 +2273,7 @@ formatter.match({
   "location": "EventRegistrationSteps.addCreditCardCSV(String)"
 });
 formatter.result({
-  "duration": 127800,
+  "duration": 93400,
   "status": "passed"
 });
 formatter.match({
@@ -2889,27 +2286,27 @@ formatter.match({
   "location": "EventRegistrationSteps.addEventTopic(String)"
 });
 formatter.result({
-  "duration": 79300,
+  "duration": 88700,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "07-02-2021",
+      "val": "09-02-2021 08:00",
       "offset": 29
     }
   ],
   "location": "EventRegistrationSteps.addEventDate(String)"
 });
 formatter.result({
-  "duration": 438100,
+  "duration": 78400,
   "status": "passed"
 });
 formatter.match({
   "location": "EventRegistrationSteps.clickSendDataBtn()"
 });
 formatter.result({
-  "duration": 1250800,
+  "duration": 10131600,
   "status": "passed"
 });
 formatter.match({
@@ -2922,7 +2319,1555 @@ formatter.match({
   "location": "EventRegistrationSteps.getMessage(String)"
 });
 formatter.result({
-  "duration": 83600,
+  "duration": 1412700,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Срокът за записване е изтекъл]!\u003e but was:\u003c[Успешно се регистрирахте и заплатихте за избраното събитие]!\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat uni.pu.fmi.EventRegistrationSteps.getMessage(EventRegistrationSteps.java:66)\r\n\tat ✽.Then Вижда съобщение \"Срокът за записване е изтекъл!\" за резултата от регистрацията.(eventRegistrationFeature.feature:14)\r\n",
+  "status": "failed"
+});
+formatter.scenario({
+  "line": 27,
+  "name": "Регистрация за събитие",
+  "description": "",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;11",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Потребителят отваря страницата за записване за събитие.",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Въвежда име \"Jane\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "Въвежда фамилия \"Doe\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "Въвежда имейл \"johndoe@gmail.com\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Въвежда номер на кредитна карта \"2020202020667687\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Въвежда CVC номер на кредитната карта \"298\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Въвежда името на събитието \"Social media marketing\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "Натиска върху бутона за изпращане на данните.",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "Вижда съобщение \"Този имейл се използва от друг потребител!\" за резултата от регистрацията.",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EventRegistrationSteps.openHomeScreen()"
+});
+formatter.result({
+  "duration": 219600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jane",
+      "offset": 13
+    }
+  ],
+  "location": "EventRegistrationSteps.addFirstName(String)"
+});
+formatter.result({
+  "duration": 86200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Doe",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.addLastName(String)"
+});
+formatter.result({
+  "duration": 90200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "johndoe@gmail.com",
+      "offset": 15
+    }
+  ],
+  "location": "EventRegistrationSteps.addEmail(String)"
+});
+formatter.result({
+  "duration": 82700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2020202020667687",
+      "offset": 33
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardNum(String)"
+});
+formatter.result({
+  "duration": 93000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-04-2023",
+      "offset": 46
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
+});
+formatter.result({
+  "duration": 167600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "298",
+      "offset": 39
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
+});
+formatter.result({
+  "duration": 146100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Social media marketing",
+      "offset": 28
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventTopic(String)"
+});
+formatter.result({
+  "duration": 86100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-02-2021 17:30",
+      "offset": 29
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventDate(String)"
+});
+formatter.result({
+  "duration": 94200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EventRegistrationSteps.clickSendDataBtn()"
+});
+formatter.result({
+  "duration": 2300100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Този имейл се използва от друг потребител!",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.getMessage(String)"
+});
+formatter.result({
+  "duration": 111200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 28,
+  "name": "Регистрация за събитие",
+  "description": "",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;12",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Потребителят отваря страницата за записване за събитие.",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Въвежда име \"Jane\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "Въвежда фамилия \"Doe\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "Въвежда имейл \"janedoe@gmail.com\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Въвежда номер на кредитна карта \"202020202066768\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Въвежда CVC номер на кредитната карта \"298\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Въвежда името на събитието \"Social media marketing\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "Натиска върху бутона за изпращане на данните.",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "Вижда съобщение \"Номерът на кредитната Ви карта е невалиден!\" за резултата от регистрацията.",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EventRegistrationSteps.openHomeScreen()"
+});
+formatter.result({
+  "duration": 98700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jane",
+      "offset": 13
+    }
+  ],
+  "location": "EventRegistrationSteps.addFirstName(String)"
+});
+formatter.result({
+  "duration": 102200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Doe",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.addLastName(String)"
+});
+formatter.result({
+  "duration": 98100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "janedoe@gmail.com",
+      "offset": 15
+    }
+  ],
+  "location": "EventRegistrationSteps.addEmail(String)"
+});
+formatter.result({
+  "duration": 80500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "202020202066768",
+      "offset": 33
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardNum(String)"
+});
+formatter.result({
+  "duration": 77000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-04-2023",
+      "offset": 46
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
+});
+formatter.result({
+  "duration": 172000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "298",
+      "offset": 39
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
+});
+formatter.result({
+  "duration": 82800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Social media marketing",
+      "offset": 28
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventTopic(String)"
+});
+formatter.result({
+  "duration": 74400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-02-2021 17:30",
+      "offset": 29
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventDate(String)"
+});
+formatter.result({
+  "duration": 63600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EventRegistrationSteps.clickSendDataBtn()"
+});
+formatter.result({
+  "duration": 1274600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Номерът на кредитната Ви карта е невалиден!",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.getMessage(String)"
+});
+formatter.result({
+  "duration": 78000,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 29,
+  "name": "Регистрация за събитие",
+  "description": "",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;13",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Потребителят отваря страницата за записване за събитие.",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Въвежда име \"Jane\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "Въвежда фамилия \"Doe\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "Въвежда имейл \"janedoe@gmail.com\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Въвежда номер на кредитна карта \"20202020206676873921\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Въвежда CVC номер на кредитната карта \"298\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Въвежда името на събитието \"Social media marketing\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "Натиска върху бутона за изпращане на данните.",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "Вижда съобщение \"Номерът на кредитната Ви карта е невалиден!\" за резултата от регистрацията.",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EventRegistrationSteps.openHomeScreen()"
+});
+formatter.result({
+  "duration": 164600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jane",
+      "offset": 13
+    }
+  ],
+  "location": "EventRegistrationSteps.addFirstName(String)"
+});
+formatter.result({
+  "duration": 156000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Doe",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.addLastName(String)"
+});
+formatter.result({
+  "duration": 67300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "janedoe@gmail.com",
+      "offset": 15
+    }
+  ],
+  "location": "EventRegistrationSteps.addEmail(String)"
+});
+formatter.result({
+  "duration": 90800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20202020206676873921",
+      "offset": 33
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardNum(String)"
+});
+formatter.result({
+  "duration": 77900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-04-2023",
+      "offset": 46
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
+});
+formatter.result({
+  "duration": 69700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "298",
+      "offset": 39
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
+});
+formatter.result({
+  "duration": 76500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Social media marketing",
+      "offset": 28
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventTopic(String)"
+});
+formatter.result({
+  "duration": 73000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-02-2021 17:30",
+      "offset": 29
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventDate(String)"
+});
+formatter.result({
+  "duration": 69900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EventRegistrationSteps.clickSendDataBtn()"
+});
+formatter.result({
+  "duration": 2176600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Номерът на кредитната Ви карта е невалиден!",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.getMessage(String)"
+});
+formatter.result({
+  "duration": 82300,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 30,
+  "name": "Регистрация за събитие",
+  "description": "",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;14",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Потребителят отваря страницата за записване за събитие.",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Въвежда име \"Jane\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "Въвежда фамилия \"Doe\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "Въвежда имейл \"janedoe@gmail.com\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Въвежда номер на кредитна карта \"2020202020667687\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Въвежда CVC номер на кредитната карта \"29833\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Въвежда името на събитието \"Social media marketing\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "Натиска върху бутона за изпращане на данните.",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "Вижда съобщение \"Невалиден CVC номер!\" за резултата от регистрацията.",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EventRegistrationSteps.openHomeScreen()"
+});
+formatter.result({
+  "duration": 104600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jane",
+      "offset": 13
+    }
+  ],
+  "location": "EventRegistrationSteps.addFirstName(String)"
+});
+formatter.result({
+  "duration": 73400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Doe",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.addLastName(String)"
+});
+formatter.result({
+  "duration": 69200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "janedoe@gmail.com",
+      "offset": 15
+    }
+  ],
+  "location": "EventRegistrationSteps.addEmail(String)"
+});
+formatter.result({
+  "duration": 95600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2020202020667687",
+      "offset": 33
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardNum(String)"
+});
+formatter.result({
+  "duration": 94100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-04-2023",
+      "offset": 46
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
+});
+formatter.result({
+  "duration": 81700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "29833",
+      "offset": 39
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
+});
+formatter.result({
+  "duration": 100800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Social media marketing",
+      "offset": 28
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventTopic(String)"
+});
+formatter.result({
+  "duration": 84500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-02-2021 17:30",
+      "offset": 29
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventDate(String)"
+});
+formatter.result({
+  "duration": 77300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EventRegistrationSteps.clickSendDataBtn()"
+});
+formatter.result({
+  "duration": 1299900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Невалиден CVC номер!",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.getMessage(String)"
+});
+formatter.result({
+  "duration": 99700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 31,
+  "name": "Регистрация за събитие",
+  "description": "",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;15",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Потребителят отваря страницата за записване за събитие.",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Въвежда име \"Jane\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "Въвежда фамилия \"Doe\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "Въвежда имейл \"janedoe@gmail.com\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Въвежда номер на кредитна карта \"2020202020667687\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Въвежда CVC номер на кредитната карта \"29\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Въвежда името на събитието \"Social media marketing\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "Натиска върху бутона за изпращане на данните.",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "Вижда съобщение \"Невалиден CVC номер!\" за резултата от регистрацията.",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EventRegistrationSteps.openHomeScreen()"
+});
+formatter.result({
+  "duration": 82400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jane",
+      "offset": 13
+    }
+  ],
+  "location": "EventRegistrationSteps.addFirstName(String)"
+});
+formatter.result({
+  "duration": 82800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Doe",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.addLastName(String)"
+});
+formatter.result({
+  "duration": 78800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "janedoe@gmail.com",
+      "offset": 15
+    }
+  ],
+  "location": "EventRegistrationSteps.addEmail(String)"
+});
+formatter.result({
+  "duration": 83400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2020202020667687",
+      "offset": 33
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardNum(String)"
+});
+formatter.result({
+  "duration": 79600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-04-2023",
+      "offset": 46
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
+});
+formatter.result({
+  "duration": 87200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "29",
+      "offset": 39
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
+});
+formatter.result({
+  "duration": 87000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Social media marketing",
+      "offset": 28
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventTopic(String)"
+});
+formatter.result({
+  "duration": 75600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-02-2021 17:30",
+      "offset": 29
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventDate(String)"
+});
+formatter.result({
+  "duration": 77200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EventRegistrationSteps.clickSendDataBtn()"
+});
+formatter.result({
+  "duration": 1479000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Невалиден CVC номер!",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.getMessage(String)"
+});
+formatter.result({
+  "duration": 81700,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 32,
+  "name": "Регистрация за събитие",
+  "description": "",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;16",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Потребителят отваря страницата за записване за събитие.",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Въвежда име \"Jane\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "Въвежда фамилия \"Doe\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "Въвежда имейл \"janedoe@gmail.com\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Въвежда номер на кредитна карта \"2020202020667687\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Въвежда дата на изтичане на кредитната карта \"03-02-2021\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Въвежда CVC номер на кредитната карта \"298\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Въвежда името на събитието \"Social media marketing\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "Натиска върху бутона за изпращане на данните.",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "Вижда съобщение \"Картата Ви е с изтекъл срок!\" за резултата от регистрацията.",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EventRegistrationSteps.openHomeScreen()"
+});
+formatter.result({
+  "duration": 90200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jane",
+      "offset": 13
+    }
+  ],
+  "location": "EventRegistrationSteps.addFirstName(String)"
+});
+formatter.result({
+  "duration": 127400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Doe",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.addLastName(String)"
+});
+formatter.result({
+  "duration": 127800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "janedoe@gmail.com",
+      "offset": 15
+    }
+  ],
+  "location": "EventRegistrationSteps.addEmail(String)"
+});
+formatter.result({
+  "duration": 93800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2020202020667687",
+      "offset": 33
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardNum(String)"
+});
+formatter.result({
+  "duration": 77300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "03-02-2021",
+      "offset": 46
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
+});
+formatter.result({
+  "duration": 85000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "298",
+      "offset": 39
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
+});
+formatter.result({
+  "duration": 87300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Social media marketing",
+      "offset": 28
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventTopic(String)"
+});
+formatter.result({
+  "duration": 81800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-02-2021 17:30",
+      "offset": 29
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventDate(String)"
+});
+formatter.result({
+  "duration": 128900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EventRegistrationSteps.clickSendDataBtn()"
+});
+formatter.result({
+  "duration": 1138100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Картата Ви е с изтекъл срок!",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.getMessage(String)"
+});
+formatter.result({
+  "duration": 99400,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 33,
+  "name": "Регистрация за събитие",
+  "description": "",
+  "id": "регистрация-и-плащане-за-събитие;регистрация-за-събитие;;17",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 4,
+  "name": "Потребителят отваря страницата за записване за събитие.",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "Въвежда име \"Jane\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "Въвежда фамилия \"Doe\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "Въвежда имейл \"janedoe@gmail.com\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Въвежда номер на кредитна карта \"2020202020667687\"",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "Въвежда дата на изтичане на кредитната карта \"23-04-2023\"",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Въвежда CVC номер на кредитната карта \"298\"",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "Въвежда името на събитието \"Social media marketing\"",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "Въвежда датата на събитието \"23-02-2021 17:30\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "Натиска върху бутона за изпращане на данните.",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "Вижда съобщение \"Успешно се регистрирахте и заплатихте за избраното събитие!\" за резултата от регистрацията.",
+  "matchedColumns": [
+    8
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "EventRegistrationSteps.openHomeScreen()"
+});
+formatter.result({
+  "duration": 1399100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Jane",
+      "offset": 13
+    }
+  ],
+  "location": "EventRegistrationSteps.addFirstName(String)"
+});
+formatter.result({
+  "duration": 648100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Doe",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.addLastName(String)"
+});
+formatter.result({
+  "duration": 669000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "janedoe@gmail.com",
+      "offset": 15
+    }
+  ],
+  "location": "EventRegistrationSteps.addEmail(String)"
+});
+formatter.result({
+  "duration": 1025100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2020202020667687",
+      "offset": 33
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardNum(String)"
+});
+formatter.result({
+  "duration": 677800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-04-2023",
+      "offset": 46
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardExpiration(String)"
+});
+formatter.result({
+  "duration": 708200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "298",
+      "offset": 39
+    }
+  ],
+  "location": "EventRegistrationSteps.addCreditCardCSV(String)"
+});
+formatter.result({
+  "duration": 676900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Social media marketing",
+      "offset": 28
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventTopic(String)"
+});
+formatter.result({
+  "duration": 1439700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23-02-2021 17:30",
+      "offset": 29
+    }
+  ],
+  "location": "EventRegistrationSteps.addEventDate(String)"
+});
+formatter.result({
+  "duration": 700700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EventRegistrationSteps.clickSendDataBtn()"
+});
+formatter.result({
+  "duration": 2692800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Успешно се регистрирахте и заплатихте за избраното събитие!",
+      "offset": 17
+    }
+  ],
+  "location": "EventRegistrationSteps.getMessage(String)"
+});
+formatter.result({
+  "duration": 1015700,
   "status": "passed"
 });
 });

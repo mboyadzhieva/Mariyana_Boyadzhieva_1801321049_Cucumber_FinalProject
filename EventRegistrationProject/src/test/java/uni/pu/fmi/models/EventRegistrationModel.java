@@ -10,10 +10,10 @@ public class EventRegistrationModel {
     private String lastName;
     private String email;
     private String creditCardNum;
-    private Date creditCardExpiration;
+    private String creditCardExpiration;
     private String creditCardCVC;
     private String eventTopic;
-    private Date eventDate;
+    private String eventDate;
     private String message;
 
     public void openRegisterScreen(){
@@ -36,7 +36,7 @@ public class EventRegistrationModel {
         this.creditCardNum = creditCardNum;
     }
 
-    public void setCreditCardExpiration(Date creditCardExpiration) {
+    public void setCreditCardExpiration(String creditCardExpiration) {
         this.creditCardExpiration = creditCardExpiration;
     }
 
@@ -48,7 +48,7 @@ public class EventRegistrationModel {
         this.eventTopic = eventTopic;
     }
 
-    public void setEventDate(Date eventDate) {
+    public void setEventDate(String eventDate) {
         this.eventDate = eventDate;
     }
 
